@@ -10,5 +10,6 @@
 <body>
 <h1>I'm first template</h1>
 <a href="/">Index page</a>
+<a href="/users">goto Users</a>
 </body>
 </html>
