@@ -10,6 +10,7 @@
 <body>
 <#if user??>
 <form name="user" action="/updateUser" method="post">
+    <input type="hidden" name="id" value="${user.id}">
     Name
     <input title=name name="name" type="text" value="${user.name}">
     Email
